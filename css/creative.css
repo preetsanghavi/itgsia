@@ -1,0 +1,21 @@
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+section {
+  padding: 8rem 0;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh; 
+  }
+
+ 
+
+
+

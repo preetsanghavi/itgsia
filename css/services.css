@@ -1,0 +1,53 @@
+html, body {	
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#particles-js {
+    height: 98%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    margin: 0 auto;
+    max-width: 198px;
+    max-height: 24px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+section {
+  padding: 8rem 0;
+}
+
+.content {
+    color: #fff;
+    display: table-cell;
+	padding: 50px 0;
+	vertical-align: middle;
+}
+
+nav {
+    background-color: #34495e;
+    height: 80px;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 999;
+}
+
+
+
+
+
+
+
+
+

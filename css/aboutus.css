@@ -1,0 +1,86 @@
+
+
+ html, body {margin:0px; padding: 0px;}
+
+nav {
+    background-color: #34495e;
+    height: 80px;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 999;
+}
+
+.right {float: right !important;}
+
+
+.parent {
+    width: 30%;
+    margin: 20px;
+    height: 400px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.bg-one {background-image:  url("../img/trainer2.jpg");}
+.bg-two {background-image: url("../img/trainers3.jpg");}
+.bg-three {background-image: url("../img/trainers.jpg");}
+.bg-four {background-image: url("../img/abhaybadminton.jpeg");}
+.bg-five {background-image: url("../img/trainer3.jpg");}
+.bg-six {background-image: url("../img/hello1.jpg");}
+
+a {
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*
+.hello {display: none}*/
+
+
